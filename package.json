@@ -1,0 +1,16 @@
+{
+  "name": "contact-list-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress-cloud": "npx cypress run --record --key b0db4e3c-97d8-44a7-be6f-5ea75d00790f"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.14.2"
+  }
+}
