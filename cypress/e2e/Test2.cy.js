@@ -1,4 +1,4 @@
-import ContactPage from '../support/pages/contactPage';
+import ContactPage from '../pages/contactPage';
 
 describe('Add Contact Form', () => {
     let contactPage;
