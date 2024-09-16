@@ -49,6 +49,14 @@ class ContactPage {
         return cy.get('#submit');
     }
 
+    get deleteButton() {
+        return cy.get('#delete');
+    }
+
+    get clickDeleteButton() {
+        return this.deleteButton().click();
+    }
+
     fillContactForm(contactData) {
         this.firstNameInput.type(contactData.firstName);
         this.lastNameInput.type(contactData.lastName);
